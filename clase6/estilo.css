@@ -1,0 +1,32 @@
+h1{
+color:rgb(253, 253, 173);
+background-color:violet;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{ color: rgb(0, 0, 0);
+    background-color: lightcoral;
+    text-align: center;
+
+}
+
+span{  color: black;
+    background-color: rgb(109, 110, 100); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+
+}
+div{
+
+    background-color: indianred;
+    border: 5px solid rgb(8, 8, 8);
+    border-radius: 10px;
+}
+    
+.parrafo-div{ 
+    color: rgb(10, 8, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+
+}
