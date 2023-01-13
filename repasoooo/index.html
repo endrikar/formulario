@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--Información técnica para el navegador-->
+        <title>Repasando HTML</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="UTF-8"> <!--Para colocar caracteres especiales-->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css">
+        <!--Importamos letras de google-->
+        <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Delius Swash Caps' rel='stylesheet'>
+    </head>
+    <body><!--Contenido de nuestra página web-->
+        <h1 class="titulo">Repasando...</h1>
+        <form><!--Creamos un formulario-->
+            <label class="form-items" for="nombre">Nombre:</label>
+            <input class="form-items" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+            <br> <!--Salto de linea--> 
+            <br>
+            <label class="form-items" for="correo">Correo:</label>
+            <input class="form-items" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+            <br>
+            <br>
+            <label class="form-items" for="clima">Clima</label>
+            <input class="form-items" type="text" name="clima" id="clima" placeholder="Ingrese el clima actual">
+            <button type="button" id="botonre" class="form-items" onclick="climarecomen()">recomendacion</button>
+            <br><br>
+            <button class="form-items" id="botonEnviar" type="button" onclick="enviar()">Enviar</button>
+           
+         </form>
+         <script src="script.js"></script>
+    </body>
+</html>

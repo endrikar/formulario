@@ -1,0 +1,24 @@
+.titulo{
+    font-family: 'Atma';
+    text-align: center;
+    font-size: 40px;
+}
+.form-items{
+    font-family: 'Delius Swash Caps';
+    font-size: 20px;
+}
+button{
+    background-color: aquamarine;
+    border: 2px dotted white;
+}
+form{
+    background-color: rgb(222, 174, 235);
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+body{
+    background-color: beige;
+}
